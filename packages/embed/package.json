@@ -2,6 +2,11 @@
   "name": "rollup-plugin-embed",
   "version": "1.0.1",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikkz/rollup-plugins",
+    "directory": "packages/embed"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -45,6 +50,7 @@
     "rollup": "^4.34.3"
   },
   "peerDependencies": {
-    "memfs": "^4"
+    "memfs": "^4",
+    "rollup": "^4"
   }
 }

@@ -1,5 +1,7 @@
 # rollup-plugin-embed
 
+[![NPM Version](https://img.shields.io/npm/v/rollup-plugin-embed)](https://www.npmjs.com/package/rollup-plugin-embed)
+
 A Rollup/Vite plugin that allows you to embed directories into your bundle as virtual file systems using [memfs](https://github.com/streamich/memfs). This plugin is particularly useful when you need to work with directory structures in your JavaScript/TypeScript code.
 
 ## Installation
